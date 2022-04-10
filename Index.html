@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>Auto typing effect</title>
+    </head>
+    <body>
+        <div class="container">
+          <p><span class="auto-type"></span> </p>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: [' "Grit is having the courage to push through, no matter what the obstacles are, because it\'s worth it."<br> -Chris Morris '],
+                typeSpeed: 50,
+                BackSpeed: 150,
+                loop: true
+            })
+        </script>
+
+    </body>
+</html>
